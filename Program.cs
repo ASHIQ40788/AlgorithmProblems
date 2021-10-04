@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgorithmPrograms058
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -19,8 +19,12 @@ namespace AlgorithmPrograms058
             //BubbleSortProgram Bubble = new BubbleSortProgram();
             //Bubble.BubbleSort();
 
-            BinarySearchWord BinaryWord = new BinarySearchWord();
-            BinaryWord.UserInput();
+            //BinarySearchWord BinaryWord = new BinarySearchWord();
+            //BinaryWord.UserInput();
+            //Console.ReadLine();
+
+            AnagramDetection anagram = new AnagramDetection();
+            anagram.AnagramDetect();
             Console.ReadLine();
         }
     }
