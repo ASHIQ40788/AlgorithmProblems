@@ -23,8 +23,14 @@ namespace AlgorithmPrograms058
             //BinaryWord.UserInput();
             //Console.ReadLine();
 
-            AnagramDetection anagram = new AnagramDetection();
-            anagram.AnagramDetect();
+            //Anagram detection
+            //AnagramDetection anagram = new AnagramDetection();
+            //anagram.AnagramDetect();
+            //Console.ReadLine();
+
+            //PrimePalindrome.
+            PrimePalindrome primePalindrome = new PrimePalindrome();
+            primePalindrome.DisplayPrimePalindrome();
             Console.ReadLine();
         }
     }
